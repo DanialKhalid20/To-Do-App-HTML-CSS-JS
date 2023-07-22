@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="TDL.css">
+</head>
+
+<body class="body" >
+
+    <div class="d">
+        <div class="d1">
+            <button class="b1">Add Tasks</button><br>
+            <button class="b2">Pending Tasks</button><br>
+            <button class="b3">Completed Tasks</button>
+        </div>
+    </div>
+
+    <div class="d2">
+
+        <h1 class="h1">To Do List</h1>
+
+        <div class="addtask">
+            <input type="text" placeholder="Title" id="title" maxlength="50"><br>
+            <textarea id="description" placeholder="Description" maxlength="250"></textarea><br>
+            <button id="saveb">Save</button>
+        </div>
+
+        <div class="pendingtasks">
+            <h4 id="header"> <span id="tit">Title</span> <span id="desc"> Description</span> <span id="del">
+                    Delete</span> </h4>
+            <hr id="line">
+        </div>
+
+        <div class="completedtasks">
+            <h4 id="header"> <span id="ct_tit">Title</span> <span id="ct_desc"> Description</span> <span id="del">
+                    Delete</span> </h4>
+            <hr id="line">
+        </div>
+
+    </div>
+
+    <script src="TDL.js"></script>
+</body>
+
+</html>

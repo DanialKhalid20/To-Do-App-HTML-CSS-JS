@@ -1,0 +1,115 @@
+.h1 {
+    text-align: center;
+}
+
+.d {
+ 
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: #475b5a;
+    width: 30%;
+    min-height: 100%;
+}
+
+
+.d .d1 {
+    padding-top: 100px;
+}
+
+.b1,
+.b2,
+.b3 {
+    
+    color: #475b5a;
+    font-size: large;
+    font-weight: 700;
+    background-color: #5dbea3;
+    height: 100px;
+    width: 383px;
+    border-width: 5px;
+    border-color: #5dbea3;
+}
+
+.d2 {
+    position: absolute;
+    top: 0;
+    left: 384px;
+
+    background-color: rgb(75, 124, 108);
+    width: 70%;
+    height: 100%;
+}
+
+.addtask {
+    background-color: #475b5a;
+    margin: auto;
+    margin-top: 50px;
+    height: 340px;
+    width: 50%;
+}
+
+#title {
+    width: 88%;
+    height: 30px;
+    margin: 20px;
+    color: #475b5a;
+    font-size: medium;
+}
+
+#description {
+    width: 88%;
+    height: 180px;
+    margin: 20px;
+    margin-top: 0;
+    resize: none;
+    color: #475b5a;
+    font-size: large;
+}
+
+#saveb {
+    margin-left: 112px;
+    width: 50%;
+    height: 40px;
+    background-color: #5dbea3;
+    color: #475b5a;
+    font-size: large;
+    font-weight: 700;
+    border-width: 5px;
+    border-color: #5dbea3;
+
+}
+
+.pendingtasks,
+.completedtasks {
+    background-color: #475b5a;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 1px;
+    height: 60px;
+    width: 70%;
+}
+
+#header {
+    color: #5dbea3;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+
+
+#line {
+    height: 3px;
+    background-color: #5dbea3;
+    border: none;
+}
+
+#tit,#ct_tit {
+    padding-left: 40px;
+}
+
+#desc ,#ct_desc{
+    padding-left: 22%;
+    padding-right: 44%;
+}
